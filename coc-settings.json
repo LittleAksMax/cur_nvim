@@ -7,6 +7,7 @@
     "html",
     "json"
   ],
+  "diagnostic.checkCurrentLine": true,
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
