@@ -13,10 +13,10 @@ source $HOME/.config/nvim/plug-config/tagbar.vim
 " theme plugins
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/darcula.vim
-source $HOME/.config/nvim/themes/onedark.vim
-" source $HOME/.config/nvim/themes/base16.vim
+" source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/base16.vim
 
-colorscheme onedark
+colorscheme base16-dracula
 
 " global variables
 source $HOME/.config/nvim/globals.vim
