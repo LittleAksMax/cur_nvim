@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 " devicons
 Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
@@ -20,8 +21,9 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 
 " statusline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+Plug 'nvim-lualine/lualine.nvim'
 
 " Ranger
 Plug 'kevinhwang91/rnvimr'
@@ -62,5 +64,8 @@ Plug 'preservim/tagbar'
 
 " better syntax highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
+" file tree
+Plug 'kyazdani42/nvim-tree.lua'
 
 call plug#end()
