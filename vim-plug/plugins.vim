@@ -45,6 +45,7 @@ Plug 'lewis6991/gitsigns.nvim'
 
 " bracket matcher
 Plug 'Raimondi/delimitMate'
+" Plug 'windwp/nvim-autopairs'
 
 " themes
 Plug 'chriskempson/base16-vim'
