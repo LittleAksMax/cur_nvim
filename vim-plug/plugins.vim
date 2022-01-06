@@ -68,6 +68,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'chriskempson/base16-vim'
 Plug 'doums/darcula'
 Plug 'joshdick/onedark.vim'
+Plug 'EdenEast/nightfox.nvim'
 
 " terminal
 Plug 'voldikss/vim-floaterm'
@@ -80,5 +81,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 
 " file tree
 Plug 'kyazdani42/nvim-tree.lua'
+
+" built in terminal
+Plug 'akinsho/toggleterm.nvim'
 
 call plug#end()
